@@ -17,4 +17,9 @@ public class Member {
 
     private String email;
 
+	public void setId(long l) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

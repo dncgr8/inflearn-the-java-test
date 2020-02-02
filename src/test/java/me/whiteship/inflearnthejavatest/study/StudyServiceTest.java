@@ -54,7 +54,7 @@ class StudyServiceTest {
         System.out.println(port);
 
         // Given
-        StudyService studyService = new StudyService(memberService, studyRepository);
+        StudyService studyService = new StudyService(memberService, StudyService);
         assertNotNull(studyService);
 
         Member member = new Member();
